@@ -11,11 +11,11 @@
     Provide an IPv4 address to lookup
  
  .EXAMPLE<br>
-    APNIC   = get-whoisIP 203.2.218.208
-    AFRINIC = get-whoisIP 105.1.1.1
-    LACNIC  = get-whoisIP 200.40.119.162
+    APNIC   = get-whoisIP 203.2.218.208<br>
+    AFRINIC = get-whoisIP 105.1.1.1<br>
+    LACNIC  = get-whoisIP 200.40.119.162<br>
 
 .NOTES<br>
-    Author:  kemi (Exodops)
-    Add note to line 79 of whatsthisip to advertise this command
+    Author:  kevinm@wlmmmas.org
+
 #>
