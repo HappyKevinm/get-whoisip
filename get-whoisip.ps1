@@ -14,6 +14,7 @@ Function Get-whoisIP()
     APNIC   = get-whoisIP 203.2.218.208
     AFRINIC = get-whoisIP 105.1.1.1
     LACNIC  = get-whoisIP 200.40.119.162
+    Get-whoisIP 2001:13c7:7002:4000::10
 
 .NOTES
     Author:  kevinm@wlkmmas.org
