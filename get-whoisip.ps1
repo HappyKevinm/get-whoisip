@@ -22,7 +22,7 @@ Function Get-whoisIP()
 #>
 [CmdletBinding()]
 Param(
-    [parameter(Position=0,Mandatory,HelpMessage="Enter an IPv4 Address.",
+    [parameter(Position=0,Mandatory,HelpMessage="Enter an IP Address. IPv6 and IPv4 supported",
     ValueFromPipeline,ValueFromPipelineByPropertyName)]
     [ValidateScript({$_ -match [IPAddress]$_ })]
     [string]$IP
