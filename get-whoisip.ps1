@@ -8,7 +8,7 @@ Function Get-whoisIP()
     Makes REST calls to ARIN, RIPE, and APNIC, and base webcalls to AFRINIC, and LACNIC then returns IP ownership information
  
 .PARAMETER IP
-    Provide an IPv4 address to lookup
+    Provide an IP address to lookup
  
  .EXAMPLE
     APNIC   = get-whoisIP 203.2.218.208
@@ -23,7 +23,7 @@ Function Get-whoisIP()
 Param(
     [parameter(Position=0,Mandatory,HelpMessage="Enter an IPv4 Address.",
     ValueFromPipeline,ValueFromPipelineByPropertyName)]
-    [ValidatePattern("^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$")]
+    [ValidateScript({$_ -match [IPAddress]$_ })]
     [string]$IP
 
 )
