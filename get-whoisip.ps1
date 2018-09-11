@@ -16,8 +16,8 @@ Function Get-whoisIP()
     LACNIC  = get-whoisIP 200.40.119.162
 
 .NOTES
-    Author:  kemi (Exodops)
-    Add note to line 79 of whatsthisip to advertise this command
+    Author:  kevinm@wlkmmas.org
+
 #>
 [CmdletBinding()]
 Param(
