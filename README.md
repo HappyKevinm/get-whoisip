@@ -16,6 +16,6 @@
     LACNIC  = get-whoisIP 200.40.119.162<br>
 
 .NOTES<br>
-    Author:  kevinm@wlmmmas.org
+    Author:  kevinm@wlkmmas.org
 
 #>
