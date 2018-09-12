@@ -19,3 +19,7 @@
     Author:  kevinm@wlkmmas.org
 
 #>
+
+Two different versions of the command
+    get-whoisip.ps1 uses a pile or write-hosts to output the data in a pretty format
+    get-whoisipObject.ps1 creates objects for each request and outputs the object vs the write-hosts
